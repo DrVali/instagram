@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.css">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./css/fontawesome.min.css">
+<link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="./css/bootstrap.rtl.css">
+   <script src="./js/jquery.min.js"></script>
+   <script src="./js/fontawesome.min.js"></script>
+   <script src="./js/bootstrap.bundle.js"></script>
+   <script src="./js/fontawesome.js"></script>
+        
+</head>
+
+<body>
+  <div class="container" >
+  <div class="top">
+
+    <div class="left-header" >
+      <img src="images/ali-ahmadi.jpg">
+    </div>
+
+    <div class="right-header" >
+    <div class=" right-top">
+      <span class="number"> 670</span>
+      <span class="number" >1,2345</span>
+      <span class="number"> 3.456</span>
+      <br>
+      <span class="text1"> post</span>
+  <span class="text1"> Followers</span>
+  <span class="text1"> Following</span>
+    </div>
+    <br>
+    <div class="right-down" >
+     <a href="#" class=" message" > Message</a>
+     <img src="./images/u.png">
+     
+     <select name="setting1" id="setting1">
+      <option value="" style="width: 3px;"></option>
+      <option value="login">Login</option>
+      <option value="setting">Setting</option>
+      <option value="logout">Logout</option>
+    </select>
+    </div>
+
+    </div>
+  </div>
+<div class="clearboth" ></div>
+  <div class="about">
+    <br>
+    <span style="font-weight: bold;"> Ali Ahmadi</span>
+    <br>
+    <span>Master of Computer Networking </span> <br>
+    <span>Front Designer </span> <br>
+   <span style="color:gray;"> <strong>Followed by </strong> Masood Pezeshkian president of iran , ....   </span>
+    
+  </div>
+   
+<div class="save-story">
+  <img src="images/1.jpeg" >
+  <img src="images/2.jpg" >
+  <img src="images/ali-ahmadi.jpg" >
+ <span style=" border:1px solid gray ; padding:30px; border-radius:50%; font-size:30px;"> + <span>
+</div>
+  <div class="gallery">
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'post')"><img src="images/table-10-32.png"></button>
+      <button class="tablinks" onclick="openCity(event, 'act')"><img src="images/calendar-131-32.png"></button>
+      <button class="tablinks" onclick="openCity(event, 'tt')"><img src="images/c.png"></button>
+    </div>
+    
+    <div id="post" class="tabcontent">
+      <div class="gallerys">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+      </div>
+    </div>
+    
+    <div id="act" class="tabcontent">
+      <div class="gallerys">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+      
+      </div>
+    </div>
+    </div>
+    
+    <div id="tt" class="tabcontent">
+      <div class="gallerys">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+        <img src="images/1.jpeg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+        <img src="images/2.jpg" alt="asdd">
+       
+        <img src="images/ali-ahmadi.jpg" alt="asdd">
+      </div>
+    </div>
+    </div></div>
+<br><br><br><br>
+    <footer style="position:relative">
+    <div class="bottom-menu">
+    <ul>
+      <li> <a href="#"><img src="images/c.png"> </a>     </li>
+ <li> <a href="#"><img src="images/c.png"> </a>     </li>
+ <li> <a href="#"><img src="./images/u.png"> </a>     </li>
+ <li> <a href="#"><img src="images/c.png"> </a>     </li>
+    </ul>
+  </div>
+</footer>
+  
+
+  </div>
+  
+</body>
+
+
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+</html>

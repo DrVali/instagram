@@ -1,0 +1,213 @@
+
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: IRANSans !important;
+}
+
+ul,li,ol {
+    list-style-type: none;
+}
+a {
+text-decoration: none;
+         text-decoration: none;
+        -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.container{
+width: 80%;
+border:1px solid gray;
+position:relative;
+}
+.top{
+     padding: 30px;  min-height:210px; width: 100%;
+    }
+    .top span {
+      padding: 5px;;
+      width:20px;
+      font-size: 25px;
+      min-width: 30%;
+      margin-right: 10px;
+      display: inline-block;
+      
+    }
+    span .number{
+      color: black;;
+    }
+    .text1{
+      color: gray;
+    }
+.top .left-header{
+width: 40%; min-height: 25vh; float: left;
+}
+
+.top .left-header img{
+  border:1px solid red;
+  padding:3px;
+ border-radius: 50%; 
+ width:150px; 
+ height:150px;
+ display: inline-block;
+ float: left;
+}
+
+.top .left-header img:hover{
+ width:160px; 
+ height:160px;
+ padding:5px;
+}
+.top .right-header{
+width: 60%; padding: 10px; float: right;
+}
+.clearboth{
+clear: both;
+}
+.message{
+ 
+    margin: 10px 30px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px 80px;
+    border: 1px solid gray;
+    font-weight: bolder;
+}
+.right-down{
+width: 100%;
+}
+.right-down a{
+text-decoration: none;
+}
+.right-down a:hover{
+background-color:gray;
+text-decoration: none;
+}
+.right-down img:hover{
+background-color:gray;
+ border-radius: 5px;
+}
+.right-down a, .right-down i, .right-down select{
+  margin-left: 40px;
+}
+.right-top{
+display: block;
+ margin-bottom: 40px;
+}
+.about {
+  padding: 30px;
+}
+.about span{
+  float: left;
+}
+.save-story{
+padding: 20px;
+}
+
+/* Style the tab */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tablinks{
+  width: 30%;
+  
+}
+.save-story img{
+  margin: 20px 10px;
+  border: 1px solid gray;
+  padding: 5px;
+  width:90px;
+   height: 90px ;
+   border-radius: 50%;
+}
+
+.gallerys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallerys img {
+width:100%;
+  max-width: 270px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.gallerys::after {
+  content: "";
+  width: 350px;
+}
+.bottom-menu{
+width:100%;
+text-align:center;
+padding:10px;
+
+position: absolute;
+    bottom: 0;
+righr:50px;
+
+}
+.bottom-menu ul{
+list-style:none;
+
+}
+.bottom-menu ul li{
+display:inline-block;
+width:17%;
+border:1px solid gray;
+z-index:1000;
+}
+
+.bottom-menu ul li:hover{
+background:gray;
+}
